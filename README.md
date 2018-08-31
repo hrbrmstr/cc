@@ -5,7 +5,7 @@ Extract metadata of a specific target based on the results of "commoncrawl.org"
 An R clone of [`cc.py`](https://github.com/si9int/cc.py) with some differences:
 
 - The Common Crawl is a free service but it costs real money to run so this doesn't abuse it and forces the caller to be the abuser vs enabling it with bad default behaviour
-- You get all the CDX metadata back in [ndjson](http://ndjson.org/) format which can be easily processed with `jq`, scritps or compiled/interpred languages
+- You get all the CDX metadata back in [ndjson](http://ndjson.org/) format which can be easily processed with `jq`, scripts or compiled/interpred languages
 
 This is a command-line utility vs a package since we don't have enough R-based command-line utility pacakges. Eventually, this will be a package with a command-line utility installer.
 
